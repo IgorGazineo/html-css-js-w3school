@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Home to Statements W3Schools</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- JS Home -->
+    <section id="home">
+      <h2>My First JavaScript</h2>
+      <button>Clike me to display Date and Time</button>
+      <p></p>
+      <br />
+      <hr />
+    </section>
+
+    <!-- JS Introduction -->
+    <section id="introduction">
+      <h2>What Can JavaScript Do?</h2>
+      <p id="demo">JavaScript can change HTML content.</p>
+      <button onclick="changeHTMLContent()">Click me!</button>
+      <br />
+      <hr />
+    </section>
+
+    <section id="change-attribute-values">
+      <h2>What Can JavaScript Do?</h2>
+      <p>JavaScript can change HTML attribute values.</p>
+      <p>
+        In this case JavaScript changes the value of the src (source) attribute
+        of an image
+      </p>
+      <button
+        onclick="document.getElementById('light-pic').src = `https://www.w3schools.com/js/pic_bulbon.gif`"
+      >
+        Turn on the light
+      </button>
+      <img
+        id="light-pic"
+        src="https://www.w3schools.com/js/pic_bulboff.gif"
+        alt="pic_bulboff.gif"
+        width="100"
+      />
+      <button
+        onclick="document.getElementById('light-pic').src = `https://www.w3schools.com/js/pic_bulboff.gif`"
+      >
+        Turn off the light
+      </button>
+      <br />
+      <hr />
+    </section>
+
+    <section>
+      <p id="hide">JavaScript Can Hide An Element</p>
+      <button onclick="document.getElementById('hide').style.display = 'none'">
+        Click me to hide the element!
+      </button>
+
+      <p id="show" style="display: none">JavaScript Can Show An Element</p>
+      <button onclick="document.getElementById('show').style.display = 'block'">
+        Click me to show the element!
+      </button>
+      <br />
+      <hr />
+    </section>
+
+    <!-- JS Whete to -->
+
+    <!-- JS Output -->
+    <section id="output">
+      <!-- JS Output Using innerHTML -->
+      <div>
+        <h1>My First Web Page</h1>
+        <p>My First Paragraph.</p>
+        <p class="paragraph"></p>
+        <br />
+        <hr />
+      </div>
+      <!-- JS Output Using document.write() -->
+      <div>
+        <h2>My First Web Page</h2>
+        <p>My First Paragraph.</p>
+        <p>
+          Never call document.write after the document has finished loading. It
+          will overwrite the whole document.
+        </p>
+        <button onclick="document.write(5 + 6)">Try it!</button>
+      </div>
+      <!-- JS Output Using window.alert() -->
+      <div>
+        <h2>My First Web Page</h2>
+        <p>My First Paragraph.</p>
+        <button onclick="window.alert(5 + 6)">Try it</button>
+      </div>
+      <!-- JS Output Using console.log() -->
+
+      <div>
+        <h2>Using console.log</h2>
+        <button onclick="console.log(5 + 6)">Try it</button>
+      </div>
+    </section>
+
+    <!-- JS Statements -->
+    <section id="statements"></section>
+  </body>
+</html>
