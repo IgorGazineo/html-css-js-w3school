@@ -1,0 +1,63 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+#css-home {
+  background-color: lightblue;
+  padding: 1rem;
+}
+
+#css-home h1 {
+  text-align: center;
+  color: white;
+}
+
+#css-home p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+#css-syntax p {
+  text-align: center;
+  color: red;
+}
+
+#element-selector p {
+  text-align: center;
+  color: red;
+}
+
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+.center {
+  text-align: center;
+  color: red;
+}
+
+p.center2 {
+  text-align: center;
+  color: red;
+}
+
+p.center3 {
+  text-align: center;
+  color: red;
+}
+
+p.large {
+  font-size: 300%;
+}
+
+#css-grouping-selector h1,
+#css-grouping-selector h2,
+#css-grouping-selector p {
+  text-align: center;
+  color: red;
+}
