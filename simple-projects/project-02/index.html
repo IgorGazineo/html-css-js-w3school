@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 02</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section id="section-01">
+        <h2>This is a heading</h2>
+        <p>This is a paragraph.</p>
+        <br />
+        <hr />
+      </section>
+
+      <section id="section-02">
+        <p>This paragraph won't be center-aligned by CSS styles</p>
+        <p class="center">
+          This paragraph will be center-aligned by CSS styles
+        </p>
+        <p class="center">
+          This paragraph will be center-aligned by CSS styles
+        </p>
+        <br />
+        <hr />
+      </section>
+
+      <section id="section-03">
+        <p id="hide-paragraph">You can hide this paragraph.</p>
+        <button onclick="hideElement('hide-paragraph')">Try it</button>
+        <br />
+        <hr />
+      </section>
+
+      <section id="section-04">
+        <p>You can show the paragraph hidden.</p>
+        <p id="show-paragraph">Hello JavaScript!</p>
+        <button onclick="showElement('show-paragraph')">Try it</button>
+        <br />
+        <hr />
+      </section>
+    </main>
+  </body>
+</html>
