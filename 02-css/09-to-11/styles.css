@@ -1,0 +1,53 @@
+body {
+  margin-bottom: 50px;
+  font-family: sans-serif;
+}
+
+span {
+  background-color: #ececec;
+  color: red;
+  padding: 2px;
+}
+
+.border1 {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.border2 {
+  border-bottom: 1px solid red;
+  padding: 1rem;
+}
+
+.border3 {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.border4 {
+  border-left: 4px solid rgb(0, 136, 255);
+  padding: 1rem;
+  background-color: rgb(147, 237, 255);
+}
+
+p.border-in-px {
+  border: 5px solid;
+  padding: 1rem;
+}
+
+p.medium-border {
+  border: medium solid;
+  padding: 1rem;
+}
+
+p.thick-border {
+  border: thick dotted;
+  padding: 1rem;
+}
+
+.border5 {
+  color: red;
+  border: 1px solid;
+  padding: 1rem;
+}
