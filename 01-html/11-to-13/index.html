@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Quotations to Colors</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin-bottom: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="html-quotations">
+      <h2>HTML Quotation and Citation Elements</h2>
+      <p>
+        In this chapter we will go through the &lt;blockquote&gt;, &lt;q&gt;,
+        &lt;abbr&gt;, &lt;address&gt;, &lt;cite&gt; and &lt;bdo&gt; HTML
+        elements.
+      </p>
+
+      <hr />
+
+      <div class="blockquote-element">
+        <h3>HTML &lt;blockquote&gt; for Quotations</h3>
+        <p>
+          The HTML &lt;blockquote&gt; element defines a section that is quoted
+          from another source.
+        </p>
+        <p>Browsers usually indet &lt;blockquote&gt; elements.</p>
+        <p>Here is a quote from WWF's website:</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+          For 60 years, WWF has worked to help people and nature thrive. As the
+          world's leading conservation organization, WWF works in nearly 100
+          countries. At every level, we collaborate with people around the world
+          to develop and deliver innovative solutions that protect communities,
+          wildlife, and the places in which they live.
+        </blockquote>
+        <br />
+        <hr />
+      </div>
+
+      <div class="q-element">
+        <h3>HTML &lt;q&gt; for Short Quotations</h3>
+        <p>The HTML &lt;q&gt; tag defines a short quotation.</p>
+        <p>Browsers normally insert quotation marks around the quotation.</p>
+
+        <p>
+          WWF's goal is to:
+          <q>Build a future where people live in harmony with nature.</q>
+        </p>
+
+        <br />
+        <hr />
+      </div>
+
+      <div class="abbr-element">
+        <h3>HTML &lt;abbr&gt; for Abbreviations</h3>
+        <p>
+          The HTML &lt;abbr&gt; tag defines an abbreviation or an acronym, like
+          "HTML", "CSS", "Mr.", "ASAP", "ATM".
+        </p>
+        <p>
+          Marking abbreviations can give useful information to browsers,
+          translation systems and search-engines.
+        </p>
+        <p>
+          <b>Tip:</b> Use the global title attribute to show the description for
+          the abbreviation/acronym when you mouse over the element.
+        </p>
+        <p>
+          The <abbr title="World Health Organization">WHO</abbr> was founded in
+          1948.
+        </p>
+
+        <br />
+        <hr />
+      </div>
+
+      <div class="address-element">
+        <h3>HTML &lt;address&gt; for Contact Information</h3>
+        <p>
+          The HTML &lt;address&gt; tag defines the contact information for the
+          author/owner of a document or an article.
+        </p>
+        <p>
+          The contact information can be an email addres, URL, physical address,
+          phone, number, social media handle, etc.
+        </p>
+        <p>
+          The text in the &lt;address&gt; element usually renders in italic, and
+          browsers will always add a line break before and after the
+          &lt;address&gt; element.
+        </p>
+
+        <address>Written by John Does.</address>
+        <span
+          >Visit us at:
+          <address>Example.com</address></span
+        >
+        <br />
+        <hr />
+      </div>
+
+      <div class="cite-element">
+        <h3>HTML &lt;cite&gt; for Work Title</h3>
+        <p>
+          The HTML &lt;cite&gt; tag defines the title of a creative work (e.g. a
+          book, a poem, a song, a movie, a painting, a sculpture, etc.).
+        </p>
+
+        <p><b>Note:</b> A person's name is not the title of a work.</p>
+
+        <p>The text in the &lt;cite&gt; element usually renders in italic.</p>
+
+        <img src="https://www.w3schools.com/html/img_the_scream.jpg" alt="" />
+        <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+        <br />
+        <hr />
+      </div>
+
+      <div class="bdo-element">
+        <h3>HTML &lt;bdo&gt; for Bi-Directional Override</h3>
+        <p>
+          <abbr title="Bi-Directional Override">BDO</abbr>
+          stands for Bi-Directional Override.
+        </p>
+        <p>
+          The HTML &lt;bdo&gt; tag is used to override the current text
+          direction:
+        </p>
+
+        <bdo dir="rtl">This text will be written from right to left</bdo>
+        <br />
+        <hr />
+      </div>
+    </section>
+
+    <section id="html-comments">
+      <h2>HTML Comments</h2>
+
+      <p>
+        HTML comments are not displayed in the browser, but they can help
+        document your HTML source code.
+      </p>
+
+      <div class="comment-tag">
+        <h3>HTML Comment Tag</h3>
+        <p>
+          You can add comments to your HTML source by using the following
+          syntax:
+        </p>
+        <p style="color: green">&lt;!-- Write your comments here --&gt;</p>
+        <br />
+        <hr />
+      </div>
+
+      <div class="add-comments">
+        <h3>Add Comments</h3>
+        <p>
+          With comments you can place notifications and reminders in your HTML
+          code:
+        </p>
+        <p style="color: green">&lt;!-- This is a comment --&gt;</p>
+        <p>
+          <span style="color: blue"
+            >&lt;<span style="color: brown">p</span>&gt;</span
+          >
+          This is a paragraph.
+
+          <span style="color: blue"
+            >&lt;<span style="color: brown">/p</span>&gt;</span
+          >
+        </p>
+        <p style="color: green">
+          &lt;!-- Remember to add more information here --&gt;
+        </p>
+        <br />
+        <hr />
+      </div>
+    </section>
+  </body>
+</html>
