@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  margin: 0;
+  background-color: #fff6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 25em;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2.5em;
+  font-size: 16px;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.05);
+}
+
+.container .title {
+  font-size: 2em;
+  color: #333;
+  margin: 0;
+}
+
+.container .price {
+  font-size: 2.2em;
+  font-weight: 700;
+  margin: 0.45em 0;
+  color: #ff6b6b;
+}
+
+.container span {
+  font-size: 1.2rem;
+}
+
+.container .description {
+  color: #3b3b3b;
+  font-size: 1.1em;
+  margin: 1.1em 0;
+}
+
+.container .offer {
+  color: #555;
+  display: block;
+  font-size: 1em;
+  margin: 1.5em;
+}
+
+.container .subscribe-button {
+  display: inline-block;
+  width: 100%;
+  background-color: #ff6b6b;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 0.8em 0;
+  margin-top: 1em;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background: #ff5757;
+}
+
+.container .ribbon-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 9.375em;
+  width: 9.375em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .ribbon {
+  pointer-events: none;
+  position: absolute;
+  top: 3em;
+  right: -1em;
+  background-color: #ff6b6b;
+  width: 14em;
+  rotate: -45deg;
+  color: #fff;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 48rem) {
+  .container {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 24.375rem) {
+  .container {
+    font-size: 10px;
+  }
+}
