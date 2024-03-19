@@ -1,6 +1,11 @@
 const menuBtn = document.querySelector(".menu-hamburger");
-console.log(menuBtn);
+const closeMenuBtn = document.querySelector(".close-btn button");
+const navElements = document.querySelector("header nav ul");
+
 menuBtn.addEventListener("click", () => {
-  console.log("clicou");
-  document.querySelector("header nav ul").classList.add("active");
+  navElements.classList.add("active");
+});
+
+closeMenuBtn.addEventListener("click", () => {
+  navElements.classList.remove("active");
 });
