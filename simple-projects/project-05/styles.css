@@ -60,6 +60,19 @@ header ul a {
   font-size: 14px;
 }
 
+.my-account-btn {
+  background-color: #177c5d;
+  padding: 12px 26px;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.4s;
+}
+
+.my-account-btn:hover {
+  background-color: #23a37b;
+}
+
 .menu-hamburger {
   position: absolute;
   right: 5%;
@@ -86,20 +99,10 @@ header ul a {
   background-color: #fff;
 }
 
-.my-account-btn {
-  background-color: #177c5d;
-  padding: 12px 26px;
-  border: none;
-  text-decoration: none;
-  color: #fff;
-  transition: background-color 0.4s;
-}
-
-.my-account-btn:hover {
-  background-color: #23a37b;
-}
-
 @media (max-width: 938px) {
+  header {
+    justify-content: space-around;
+  }
   header nav ul {
     position: fixed;
     display: flex;
@@ -122,6 +125,7 @@ header ul a {
   }
   .my-account-btn {
     margin-right: 10%;
+    padding: 8px 18px;
   }
   .menu-hamburger {
     display: block;
@@ -145,4 +149,41 @@ header ul a {
   background-size: cover;
   height: 100vh;
   z-index: -2;
+}
+
+main {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 100px auto;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+main h1 {
+  font-weight: 500;
+  font-size: 55px;
+  margin: 0;
+}
+
+main p {
+  margin-top: -14px;
+  font-size: 18px;
+}
+
+.get-started-btn {
+  margin-top: 35px;
+  display: inline-block;
+  background-color: #23a37b;
+  padding: 12px 26px;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.4s;
+}
+
+.get-started-btn:hover {
+  background-color: #177c5d;
 }
