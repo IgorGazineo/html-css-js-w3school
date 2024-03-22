@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+header {
+  padding: 15px 6.25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  /* align-items: center; */
+}
+
+header .nav-sign-in-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 81px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+nav ul li {
+  height: 16px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+nav ul a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+header .sign-in-btn,
+.register-btn {
+  background-color: rgb(54, 104, 158);
+  text-decoration: none;
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+  padding: 14px 36px;
+  border-radius: 90px;
+  transition: background-color 0.4s;
+}
+
+.sign-in-btn:hover,
+.register-btn:hover {
+  background-color: rgb(66, 127, 192);
+}
