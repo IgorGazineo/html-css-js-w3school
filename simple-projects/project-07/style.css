@@ -4,6 +4,11 @@ body {
 }
 
 header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
   padding: 15px 6.25%;
   display: flex;
   align-items: center;
@@ -94,6 +99,10 @@ header .sign-in-btn,
   transition: background-color 0.4s;
 }
 
+.register-btn {
+  display: inline-block;
+}
+
 .sign-in-btn:hover,
 .register-btn:hover {
   background-color: rgb(66, 127, 192);
@@ -128,6 +137,55 @@ header .sign-in-btn,
   }
 
   nav .nav-links.active {
-    width: 90%;
+    width: 95%;
   }
+}
+
+@media (max-width: 440px) {
+  .logo img {
+    width: 100px;
+  }
+
+  header .nav-sign-in-container {
+    gap: 20px;
+  }
+
+  header .sign-in-btn {
+    padding: 8px 20px;
+    font-size: 15px;
+  }
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 0 6.25%;
+}
+
+.left-hero {
+  width: 497px;
+}
+
+.left-hero h1 {
+  font-size: 60px;
+  line-height: 80px;
+  margin: 0;
+}
+
+.left-hero p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #7d7d7d;
+  margin: 0;
+}
+
+.hero-btns {
+  margin-top: 30px;
+}
+
+.right-hero img {
+  width: 500px;
 }
