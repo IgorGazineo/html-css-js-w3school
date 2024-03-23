@@ -10,7 +10,9 @@ menuHamburger.addEventListener("click", () => {
 
 navLinks.forEach((navLink) => {
   navLink.addEventListener("click", () => {
-    navLinksListElement.classList.toggle("active");
-    menuHamburger.classList.remove("active");
+    if (document.documentElement.clientWidth < "1100") {
+      navLinksListElement.classList.toggle("active");
+      menuHamburger.classList.remove("active");
+    }
   });
 });
