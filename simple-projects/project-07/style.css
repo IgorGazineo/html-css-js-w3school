@@ -189,3 +189,48 @@ header .sign-in-btn,
 .right-hero img {
   width: 500px;
 }
+
+@media (max-width: 1100px) {
+  /* header {
+    position: static;
+  } */
+
+  /* .hero {
+    height: 800px;
+  } */
+
+  .left-hero {
+    width: 400px;
+  }
+
+  .left-hero h1 {
+    font-size: 50px;
+  }
+
+  .left-hero p {
+    font-size: 18px;
+  }
+
+  .right-hero img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .left-hero {
+    width: 300px;
+  }
+
+  .left-hero h1 {
+    font-size: 45px;
+    line-height: normal;
+  }
+
+  .left-hero p {
+    line-height: normal;
+  }
+
+  .right-hero img {
+    width: 300px;
+  }
+}
